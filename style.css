@@ -91,6 +91,7 @@ html, body {
     /* background-color: red; */
     padding: 3vw;
     color: #fff;
+    backdrop-filter: blur(10px);
 }
 
 #over1 {
@@ -129,4 +130,44 @@ html, body {
 
 #over2  img {
     height: 3vw;
+}
+
+#scroll {
+    height: 44vh;
+    /* background-color: red; */
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#container {
+    height: calc(100% - 4vw);
+    width: calc(110% - 4vw);
+    /* background-color: blue; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 2vw;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#scroll img {
+    /* display: none; */
+    height: 95%;
+    border-radius: 50%;
+    width: 15%;
+    margin: 1vw;
+    object-fit: cover;
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
