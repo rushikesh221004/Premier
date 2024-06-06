@@ -396,6 +396,7 @@ body {
     width: 40%;
     justify-content: flex-start;
     font-size: 24px;
+    letter-spacing: 1px;
   }
 
   #nav h1::after {
@@ -421,5 +422,88 @@ body {
 
   #nav h3 {
     display: initial;
+  }
+
+  #center {
+    height: calc(60% - 8vw);
+  }
+
+  #overlay {
+    height: calc(40% - 6vw);
+    backdrop-filter: blur(10px);
+  }
+
+  #over1 h1 {
+    font-size: 5vw;
+  }
+
+  #over1 h2 {
+    font-size: 4vw;
+  }
+
+  #over2 h4 {
+    font-size: 3vw;
+  }
+
+  #over2 img {
+    height: 6vw;
+  }
+
+  #scroll {
+    height: 10vh;
+    /* background-color: red; */
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  #container {
+    height: 100%;
+    width: calc(100% - 8vw);
+    /* background-color: blue; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 0 4vw;
+  }
+
+  #alphabet {
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #alphabet h5 {
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000;
+    margin-right: 2vw;
+  }
+
+  #alphabet h6 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 4px;
+    padding: 0vw 0vw;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background-color: yellow; */
+    transition: all ease 2s;
+  }
+
+  #alphabet h6:hover {
+    border: 1px solid #000;
   }
 }
