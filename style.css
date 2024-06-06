@@ -450,7 +450,7 @@ body {
   }
 
   #scroll {
-    height: 12vh;
+    height: 25vh;
     /* background-color: red; */
     width: 100%;
     margin: 20px 0;
@@ -458,11 +458,16 @@ body {
 
   #container {
     height: calc(100% - 4vw);
-    width: calc(110% - 4vw);
+    width: calc(225% - 4vw);
     /* background-color: blue; */
     display: inline-block;
     /* border: 1px solid black; */
     padding: 3vw;
+  }
+
+  #container img {
+    height: 20vh;
+    width: 20vh;
   }
 
   #alphabet {
