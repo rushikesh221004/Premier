@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: monument;
-  font-size: 45px;  
+  font-size: 45px;
   letter-spacing: -2px;
   position: relative;
 }
@@ -50,7 +50,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   position: absolute;
-  right: 55px;
+  right: 12%;
   top: 25px;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 #nav h2:nth-last-child(2) {
-  width: 29%;
+  width: 10%;
 }
 
 #nav h2:nth-last-child(1) {
@@ -393,17 +393,9 @@ body {
   }
 
   #nav h1 {
-    /* background-color: blue; */
-    height: 100%;
     width: 40%;
-    /* background-color: yellow;  */
-    display: flex;
     justify-content: flex-start;
-    align-items: center;
-    font-family: monument;
     font-size: 24px;
-    letter-spacing: -2px;
-    position: relative;
   }
 
   #nav h1::after {
@@ -427,17 +419,7 @@ body {
     /* background-color: red; */
   }
 
-  
-#nav h3 {
-  display: initial;
-}
-
-
-  #nav h2:nth-last-child(2) {
-    width: 29%;
-  }
-
-  #nav h2:nth-last-child(1) {
-    width: 10%;
+  #nav h3 {
+    display: initial;
   }
 }
