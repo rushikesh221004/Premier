@@ -456,54 +456,23 @@ body {
     margin: 20px 0;
   }
 
-  #container {
-    height: 100%;
-    width: calc(100% - 8vw);
-    /* background-color: blue; */
-    display: inline-block;
-    /* border: 1px solid black; */
-    padding: 0 4vw;
-  }
-
   #alphabet {
-    height: 10vh;
-    width: 100%;
     /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 0vw;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
   #alphabet h5 {
     font-size: 4vw;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-style: italic;
     letter-spacing: 1px;
-    border-bottom: 2px solid #000;
     margin-right: 2vw;
   }
 
   #alphabet h6 {
     font-size: 3vw;
-    text-transform: uppercase;
-    font-style: italic;
-    font-weight: 300;
-    font-style: italic;
     letter-spacing: 4px;
     padding: 0vw 0vw;
-    border-radius: 50%;
-    cursor: pointer;
-    /* background-color: yellow; */
-    transition: all ease 2s;
   }
 
-  #alphabet h6:hover {
-    border: 1px solid #000;
-  }
 }
